@@ -1,84 +1,59 @@
-# Turborepo starter
+![Banner](/public/banner.png)
 
-This is an official starter Turborepo.
+Bienvenido a DataScouty, una aplicación web que te permite extraer datos de los cursos de Platzi para extraer información para organizar tus notas en Notion u Obsidian.
 
-## Using this example
+## Tabla de Contenidos
+- [❔ Acerca de DataScouty](#acerca-de-datascouty)
+- [✨ Características Principales](#características-principales)
+- [🤝 Contribuciones](#contribuciones)
+- [📦 Créditos](#créditos)
+- [📬 Contacto](#contacto)
+- [🌟 Próximas Funcionalidades](#próximas-funcionalidades)
+- [🗞️ Changelog](#changelog)
 
-Run the following command:
+## ❔Acerca de DataScouty
+DataScouty es una aplicación web que te permite extraer datos como títulos, descripciones, banners, badges u otra información de los cursos de Platzi, esto con la finalidad de organizar tus notas en Notion u Obsidian de una manera más rápida y eficiente.
+Esto se logra a través de la extracción de datos usando web scraping para después mostrarlos en una interfaz gráfica donde puedes copiar la información de los cursos y pegarla en tu aplicación de notas favorita, esto se logra gracias a la estructura de los cursos de Platzi que es muy similar en todos los cursos, lo que facilita la extracción de datos.
 
-```sh
-npx create-turbo@latest
+Esta idea nace de mi necesidad de organizar mis notas de los cursos de Platzi en Notion, pero el proceso manual de copiar y pegar la información de cada curso era muy tedioso, por lo que decidí crear esta aplicación para automatizar este proceso.
+
+Además de la extracción de datos de forma más automatizada, se planea agregar funcionalidades como una integración con la API de Notion para crear notas directamente en Notion, asi como la posibilidad de extraer datos de rutas o escuelas y todos sus cursos.
+
+## ✨ Características Principales
+- Extracción de datos de los cursos de Platzi.
+- Interfaz gráfica para visualizar los datos extraídos.
+- Copiar la información de los cursos para pegarla en tu aplicación de notas favorita.
+
+## 🤝 Contribuciones
+Este proyecto está pensado para la comunidad de Platzi, por lo que cualquier contribución es bienvenida, ya sea reportando errores, sugiriendo nuevas funcionalidades o mejoras, o contribuyendo directamente al código.
+Si deseas contribuir al proyecto, asi es como puedes hacerlo:
+1. Crear un fork del proyecto.
+2. Crear una rama con el nombre de la funcionalidad que deseas agregar o mejorar.
+```bash
+git checkout -b feature/nombre-de-la-funcionalidad
 ```
-
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
+3. Realizar los cambios necesarios.
+4. Hacer un commit de los cambios realizados.
+```bash
+git commit -m "Agrega una nueva funcionalidad"
 ```
-cd my-turborepo
-pnpm build
+5. Hacer un push de los cambios a tu repositorio.
+```bash
+git push origin feature/nombre-de-la-funcionalidad
 ```
+6. Crear un pull request en el repositorio original.
+7. Esperar a que tu pull request sea revisado y aceptado.
 
-### Develop
+## 📦 Créditos y Tecnologías Usadas
 
-To develop all apps and packages, run the following command:
+## 📬 Contacto
+Tienes alguna duda, sugerencia o comentario sobre DataScouty, puedes contactarme a través de mi Twitter o correo electrónico:
+- [Twitter](https://twitter.com/LurchingDart)
+- [Correo Electrónico](mailto:lurchdev@gmail.com)
 
-```
-cd my-turborepo
-pnpm dev
-```
 
-### Remote Caching
+## 🌟 Próximas Funcionalidades
+Ver las próximas funcionalidades en el archivo [ROADMAP.md](ROADMAP.md).
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## 🗞️ Changelog
+Ver los cambios recientes en el archivo [CHANGELOG.md](CHANGELOG.md).
